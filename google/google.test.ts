@@ -1,5 +1,6 @@
 // Lines 2 through 6 are our boilerplate lines of code, we need them for our tests to work
 import { Builder, Capabilities, By} from "selenium-webdriver"
+import { afterAll, beforeAll } from "@jest/globals"
 const { test } = require('@jest/globals')
 
 const chromedriver = require('chromedriver')

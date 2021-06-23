@@ -1,5 +1,6 @@
 import { Builder, Capabilities, By } from "selenium-webdriver"
 const { test } = require('@jest/globals')
+import { afterAll, beforeAll } from "@jest/globals"
 
 const chromedriver = require('chromedriver')
 
